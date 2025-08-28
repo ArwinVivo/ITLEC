@@ -1,22 +1,14 @@
-public class ArithmeticIfElse {
+public class Main {
   public static void main(String[] args) {
-    int num1 = 12;
-    int num2 = 8;
+    int a = 10, b = 5;       // Gumawa ng dalawang number: a = 10 at b = 5
+    int sum = a + b;         // Idagdag ang a at b, ilagay ang sagot sa "sum"
 
-    int sum = num1 + num2;          
-    int difference = num1 - num2;   
-    int product = num1 * num2;      
-    int quotient = num1 / num2;     
+    System.out.println("The sum is: " + sum); // Ipakita ang resulta ng addition
 
-    System.out.println("Addition (Sum): " + sum);
-    System.out.println("Subtraction (Difference): " + difference);
-    System.out.println("Multiplication (Product): " + product);
-    System.out.println("Division (Quotient): " + quotient);
-
-    if (sum > 20) {
-      System.out.println("The sum is greater than 20.");
-    } else {
-      System.out.println("The sum is not greater than 20.");
+    if (sum > 10) {          // Kung ang sagot ay mas malaki sa 10
+      System.out.println("The sum is greater than 10.");
+    } else {                 // Kung hindi mas malaki sa 10
+      System.out.println("The sum is not greater than 10.");
     }
   }
 }
