@@ -1,4 +1,4 @@
-package com.exmaple.xmlresourceslab;
+package com.example.xmlresourceslab;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
