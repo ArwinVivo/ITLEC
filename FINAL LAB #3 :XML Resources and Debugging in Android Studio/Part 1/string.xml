@@ -1,5 +1,5 @@
-<resources>
+ <resources>
     <string name="app_name">XMLResourcesLab</string>
-    <string name="welcome_message">¡Bienvenido al Laboratorio de XML!</string>
-    <string name="button_text">Presióname</string>
+    <string name="welcome_message">Welcome to XML Resources Lab!</string>
+    <string name="button_text">Click to Debug</string>
 </resources>
